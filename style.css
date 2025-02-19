@@ -1,0 +1,60 @@
+body{
+    background-color: #FBE7C6;
+}
+.box{
+    /* position: absolute; */
+    margin: 100px; 
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0; */
+    /* padding: 0; */
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border: 2px solid #e4b7a0;
+    
+}
+.main .btn{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    cursor: pointer;
+    color: white;
+    background-color:#e4b7a0;
+    border:1px solid #e4b7a0;
+    border: 0;
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border-radius: 10px; */
+    /* margin-top: -10px;  */
+}
+.result{
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result #answer{
+    width: 250px;
+    height: 50px;
+    border: 2px solid blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 100px;
+}
